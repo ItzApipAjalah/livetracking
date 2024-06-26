@@ -62,7 +62,7 @@ The application sends location data to a specified API endpoint. Here is an exam
 
 ### Example API (Node.js + Express)
 
-**Install dependencies:**
+#### **Install dependencies:**
 ```bash
 npm install express sequelize mysql2 body-parser
 ```
