@@ -199,7 +199,7 @@ To display the location on a map, you can use the following HTML and JavaScript 
 
 ```
 
-#### **Java Script**
+#### **JavaScript**
 
 ```js
 function fetchLocationAndUpdateMap() {
