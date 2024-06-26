@@ -19,7 +19,7 @@ A Flutter application for live tracking, which sends location data to an API. Th
 - [Displaying the Location on a Map](#displaying-the-location-on-a-map)
   - [HTML](#html)
   - [JavaScript](#javascript)
-  - [Resault](#resaults)
+  - [Resault](#results)
 - [License](#license)
 
 ## Features
