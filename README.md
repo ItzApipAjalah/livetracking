@@ -206,3 +206,5 @@ fetchLocationAndUpdateMap();
 setInterval(fetchLocationAndUpdateMap, 60000); 
 
 ```
+
+![Example Html](https://i.ibb.co.com/pjJzzWH/examplehtml.png)
