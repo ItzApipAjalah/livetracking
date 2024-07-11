@@ -19,7 +19,7 @@ A Flutter application for live tracking, which sends location data to an API. Th
 - [Displaying the Location on a Map](#displaying-the-location-on-a-map)
   - [HTML](#html)
   - [JavaScript](#javascript)
-  - [Resault](#resaults)
+  - [Resault](#results)
 - [License](#license)
 
 ## Features
@@ -62,12 +62,12 @@ The application sends location data to a specified API endpoint. Here is an exam
 
 ### Example API (Node.js + Express)
 
-**Install dependencies:**
+#### **Install dependencies:**
 ```bash
 npm install express sequelize mysql2 body-parser
 ```
 
-**Configuration:**
+#### **Configuration:**
 Create a file `config/database.js`:
 
 ```js
@@ -81,7 +81,7 @@ const sequelize = new Sequelize('databasee', 'table', 'password', {
 module.exports = sequelize;
 ```
 
-**Model:**
+#### **Model:**
 Create a file `models/Map.js`:
 
 ```js
@@ -104,7 +104,7 @@ const Map = sequelize.define('Map', {
 module.exports = Map;
 ```
 
-**Controller:**
+#### **Controller:**
 Create a file `controllers/mapsController.js`:
 
 ```js
@@ -147,7 +147,7 @@ exports.get = async (req, res) => {
 };
 ```
 
-**Routes:**
+#### **Routes:**
 Create a file `routes/maps.js`:
 
 ```js
@@ -161,7 +161,7 @@ router.get('/', mapsController.get);
 module.exports = router;
 ```
 
-**Server Initialization:**
+#### **Server Initialization:**
 Create a file `index.js`:
 
 ```js
@@ -190,7 +190,7 @@ app.listen(PORT, () => {
 
 To display the location on a map, you can use the following HTML and JavaScript code:
 
-**HTML**
+#### **HTML**
 
 ```html
 <div id="location-map" style="width: 100%; height: 300px;">
@@ -199,7 +199,7 @@ To display the location on a map, you can use the following HTML and JavaScript 
 
 ```
 
-**Java Script**
+#### **JavaScript**
 
 ```js
 function fetchLocationAndUpdateMap() {
@@ -227,7 +227,7 @@ setInterval(fetchLocationAndUpdateMap, 60000);
 
 ```
 
-**Results**
+#### **Results**
 
 ![Example Html](https://i.ibb.co.com/pjJzzWH/examplehtml.png)
 
